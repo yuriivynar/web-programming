@@ -1,0 +1,35 @@
+.end {
+    background: #F8F8F8;
+    height: 195px;
+    max-width: 100vw;
+}
+.footer {
+    margin: 0 auto;
+    width: 1219px;
+}
+.top_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 39px;
+}
+.footer_paragraph {
+    color: #848484;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.social_media {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+    width: 1219px;
+    border-top: 0.6px solid #C4C4C4;
+}
+.footer_icons {
+    width: 25px;
+    height: 20px;
+    padding-right: 37px;
+    padding-top: 33px;
+}

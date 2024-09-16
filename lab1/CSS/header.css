@@ -1,0 +1,74 @@
+.header {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1216px;
+    height: 79px;
+    padding: 50px;
+    margin: 0 auto;
+}
+.header_nav ul {
+    display: flex;
+    font-family: Inter;
+
+}
+.header_button {
+    display: flex;
+}
+.header_title {
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+}
+.header_nav_items {
+    display:flex;
+    margin-right: 35px;
+    font-weight: 400;
+}
+.header_nav_items a {
+    color: #B8BECD;
+}
+.header_button_login a{
+    color: #FB8F1D;
+    
+}
+.header_button_login {
+    background: #FFF;
+    color: #FB8F1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    width: 132px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+    font-family: Inter;
+
+}
+.header_button_register a {
+    color: #FFF;
+
+}
+.header_button_register {
+    background: #FB8F1D;
+    color: #FFF;
+    display: flex;
+    font-family: Inter;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18px;
+    width: 132px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 60px;
+}
