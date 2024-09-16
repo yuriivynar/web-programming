@@ -1,0 +1,38 @@
+.footer {
+    background: #F8F8F8;
+    font-size: 17px;
+}
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+.footer__paragraph {
+    color: #848484;
+    font-family: Mulish;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 28px;
+}
+.footer__bottom {
+    border-top: 0.6px solid #C4C4C4;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.footer__icons {
+    width: 25px;
+    height: 20px;
+    margin: 33px 0;
+}
+@media screen and (max-width: 537px) {
+    .footer__top {
+        flex-direction: column;
+        padding: 10px 0;
+
+    }
+    .footer__paragraph {
+        font-size: 0.6em;
+    }
+}

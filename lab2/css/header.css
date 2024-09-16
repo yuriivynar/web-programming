@@ -1,0 +1,134 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 133px;
+    align-items: center;
+    padding: 10px 0px;
+}
+.header__burger {
+    display: none;
+    cursor: pointer;
+    width: 32px;
+}
+.header__burger > img {
+    max-width: 100%;
+}
+.header__logo {
+    width: 41px;
+    height: 41px;
+}
+
+.header__button {
+    display: flex;
+    gap: 18px;
+}
+.button__link {
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    background: #FB8F1D;
+    color: #FFF;
+    transition: color 0.3s ease;
+
+}
+.button__link:hover {
+    background: #FFF;
+    color: #FB8F1D;
+}
+/*=============================*/
+.menu__list {
+    display: flex;
+    gap: 35px;
+}
+
+.menu__link {
+    color: #B8BECD;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+.menu__link:hover {
+    color: #202336;
+}
+@media screen and (max-width: 2560px) {
+    .header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        background: #FFF;
+    }
+    .header__container {
+        position: relative;
+        z-index: 2;
+        min-height: 80px;
+        padding: 0 10px;
+    }
+    .menu__list {
+        gap: 150px;
+    }
+    .header__button {
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .menu__list {
+        gap: 35px;
+    }
+    .header__button {
+        gap: 18px;
+    }
+}
+@media screen and (max-width: 767.98px) {
+    .header__burger {
+        display: block;
+    }
+    .header__menu {
+        flex-direction: column;
+        position: fixed;
+        background: #FFF;
+        text-align: center;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        clip-path: circle(0% at 0 0);
+        transition: clip-path 0.9s ease-in-out;;
+    }
+    .header__menu.open {
+        clip-path: circle(150% at 0 0);
+        height: 100%;
+    }
+    .menu__list {
+        flex-direction: column;
+        gap: 100px;
+        height: 100%;
+    }
+    .menu__item {
+        margin: 10px 0;
+    }
+    .menu__link {
+        font-weight: 500;
+        display: block;
+        font-size: 28px;
+        color: #202336;
+    }
+    .header__button {
+        gap: 10px;
+    }
+    .button__link {
+        font-size: 14px;
+        width: 80px;
+        height: 32px;
+        line-height: 32px;
+    }
+}
