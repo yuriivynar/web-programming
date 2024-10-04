@@ -1,0 +1,64 @@
+.header {
+    background: #F8F8F8;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+    padding: 10px 15px;
+}
+.menu__list {
+    display: flex;
+    gap: 35px;
+}
+.header__title {
+    font-size: 20px;
+}
+.header__menu {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.header__search {
+    gap: 25px;
+    display: flex;
+}
+.form-control {
+    border: 1px solid #555555;
+    border-radius: 4px;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+.header__button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    transition: background-color 0.3s ease;
+}
+.btn-clear {
+    border: 1px solid #cc0000;
+    color: #cc0000;
+}
+.btn-search {
+    color: #0275D8;
+    border: 1px solid #0275D8;
+}
+.btn-search:hover {
+    background-color: #0275D8;
+    color: #F8F8F8;
+}
+.btn-clear:hover {
+    background-color: #cc0000;
+    color: #F8F8F8;
+}
