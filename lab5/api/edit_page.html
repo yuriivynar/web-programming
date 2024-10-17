@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <nav class="header__menu">
+                    <p class="header__title">My Lot</p>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="index.html">My Gems</a></li>
+                        <li class="menu__item"><a href="">Add Gem</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main main-block">
+                <div class="main-block__container2">
+                    <div class="main-block__content">
+                        <form id="add_form" class="content__form">
+                            <h3 class="form__title">Edit gem</h3>
+                            <div class="mb-3">
+                                <label for="title_input" class="form-label">Title</label>
+                                <select id="title_input" name="title_input">
+                                    <option value="" disabled selected>Select Title</option>
+                                    <option value="Opal">Opal</option>
+                                    <option value="Sapphire">Sapphire</option>
+                                    <option value="Ruby">Ruby</option>
+                                    <option value="Diamonds">Diamonds</option>
+                                    <option value="Emerald">Emerald</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="description_input" class="form-label">Description</label>
+                                <input type="text" id="description_input" class="form-control" placeholder="Description..."></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="daily-expense" class="form-label">Daily expense ($)</label>
+                                <input type="number" id="daily-expense" name="daily-expense" value="0" max="20000" min="0">
+                            </div>
+                            <button id="submit_button" class="form__button" type="submit">Edit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="edit.js"></script>
+</body>
+</html>

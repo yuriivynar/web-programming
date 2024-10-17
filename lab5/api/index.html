@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+3:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <nav class="header__menu">
+                    <p class="header__title">My Lot</p>
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="">My Gems</a></li>
+                        <li class="menu__item"><a href="create_page.html">Add Gem</a></li>
+                    </ul>
+                </nav>
+                <div class="header__search">
+                    <input id="find_input" type="text" class="form-control" placeholder="Search...">
+                    <button id="search_button" class="header__button btn-search">Search</button>
+                    <button id="clear_button" class="header__button btn-clear">Clear</button>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__main main-block">
+                <div class="main-block__container">
+                    <div class="content">
+                        <div class="sort">
+                            <h1 class="sort__title">Manage gems</h1>
+                            <div class="sort-block">
+                                <p class="sort-block__parag">Sort by the most expensive gems:</p>
+                                <label id="sort_checkbox" class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="count">
+                            <p class="count__parag">Count total price:</p>
+                            <div class="count__buttons">
+                                <button id="count_button" class="count__button">Count</button>
+                                <button id="count_clear_button" class="count__button-clear">Clear</button>
+                            </div>
+                            <div class="count__num">
+                                <p class="count__num-tittle">Total price: </p>
+                                <p id="sumprice" class="count__num-num">$0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="items_container" class="content-blocks">
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="view.js"></script>
+</body>
+</html>
