@@ -1,0 +1,40 @@
+footer {
+    padding: 10px 50px;
+    border: 1px solid #000000;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+.footer_content_logo {
+    width: 80px;
+}
+.footer_content_text {
+    width: 300px;
+    padding: 10px 0;
+}
+.footer_content_text h3{
+    font-size: 20px;
+    padding: 5px;
+    color: #333333;
+}
+.footer_content_text p {
+    font-size: 16px;
+    padding: 5px;
+    color: #333333;
+}
+.footer_content_icons {
+    width: 300px;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
+.footer_autor p {
+    text-align: center;
+    font-size: 15px;
+    color: #333333;
+    padding: 20px;
+
+}

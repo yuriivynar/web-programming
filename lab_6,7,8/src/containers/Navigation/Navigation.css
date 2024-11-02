@@ -1,0 +1,36 @@
+a {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+.navigation {
+    width: 495px;
+    height: 51px;
+    border: none; 
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s ease;
+}
+.navigation li {
+    list-style: none;
+    width: 150px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.navigation ul {
+    display: flex;
+    gap: 15px;
+}
+.navigation li:hover {
+    border-radius: 30px;
+    border: 1px solid #e0e0e0;
+    background-color: #e0e0e0;
+}
