@@ -1,0 +1,16 @@
+section {
+    padding: 0 50px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
+}
+.filters {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.filters_line {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
