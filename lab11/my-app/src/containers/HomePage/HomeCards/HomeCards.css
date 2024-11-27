@@ -1,0 +1,26 @@
+.home_cards {
+    display: grid;
+    column-gap: 150px;
+    row-gap: 75px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.home_cards_btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.view_btn {
+    font-size: 18px;
+    width: 180px;
+    height: 45px;
+    color: #fff;
+    background: #424242;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}

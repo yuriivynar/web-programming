@@ -1,0 +1,81 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout__title {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.checkout__form {
+    margin-top: 50px;;
+}
+
+.checkout__form-name,
+.checkout__form-email-phone,
+.checkout__form-address {
+    margin-bottom: 15px;
+}
+
+
+.checkout__form input {
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.checkout__form-name {
+    display: flex;
+}
+
+.checkout__form-email-phone {
+    display: flex;
+}
+
+.checkout__form-first-name, .checkout__form-email {
+    margin-right: 30px;
+}
+
+.checkout__form-address input {
+    width: 97%;
+}
+
+.checkout__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+.checkout__buttons a {
+    height: 50px;
+    width: 140px;
+    padding: 0;
+}
+.continue__button{
+    color: white;
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.go_back_button {
+    color: white;
+    background-color: rgb(62, 61, 61);
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.checkout__buttons button:hover {background-color: rgba(0, 0, 0, 0.479)}
+
+.checkout__buttons button:active {
+  background-color: rgba(0, 0, 0, 0.479);
+  transform: translateY(4px);
+}
