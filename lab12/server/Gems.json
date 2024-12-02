@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Emerald",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/emerald_white.jpg",
+        "price": 870,
+        "color": "White"
+    },
+    {
+        "id": 2,
+        "title": "Ruby",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/ruby_red.jpg",
+        "price": 8000,
+        "color": "Red"
+    },
+    {
+        "id": 3,
+        "title": "Emerald",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/emerald_green.jpg",
+        "price": 987,
+        "color": "Green"
+    },
+    {
+        "id": 4,
+        "title": "Zircon",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/zircon_blue.jpg",
+        "price": 800,
+        "color": "Blue"
+    },
+    {
+        "id": 5,
+        "title": "Sapphire",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/sapphire_white.jpg",
+        "price": 6666,
+        "color": "White"
+    },
+    {
+        "id": 6,
+        "title": "Diamond",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/diamond_yellow.jpg",
+        "price": 1200,
+        "color": "Yellow"
+    },
+    {
+        "id": 7,
+        "title": "Sapphire",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/sapphire_pink.jpg",
+        "price": 600,
+        "color": "Pink"
+    },
+    {
+        "id": 8,
+        "title": "Tanzanite",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/tanzanite_blue.jpg",
+        "price": 950,
+        "color": "Blue"
+    },
+    {
+        "id": 9,
+        "title": "Aquamarine",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/aquamarine_blue.jpg",
+        "price": 2000,
+        "color": "Blue"
+    },
+    {
+        "id": 10,
+        "title": "Sapphire",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/sapphire_yellow.jpg",
+        "price": 1500,
+        "color": "Yellow"
+    },
+    {
+        "id": 11,
+        "title": "Diamond",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/diamond_white.png",
+        "price": 650,
+        "color": "White"
+    },
+    {
+        "id": 12,
+        "title": "Opal",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/opal_red.jpg",
+        "price": 1100,
+        "color": "Red"
+    },
+    {
+        "id": 13,
+        "title": "Sapphire",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/sapphire_green.jpg",
+        "price": 2200,
+        "color": "Green"
+    },
+    {
+        "id": 14,
+        "title": "Opal",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/opal_multicolor.png",
+        "price": 1650,
+        "color": "Multicolor"
+    },
+    {
+        "id": 15,
+        "title": "Ruby",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/ruby_blue.jpg",
+        "price": 1650,
+        "color": "Blue"
+    },
+    {
+        "id": 16,
+        "title": "Diamond",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/diamond_black.jpg",
+        "price": 5800,
+        "color": "Black"
+    },
+    {
+        "id": 17,
+        "title": "Sapphire",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/sapphire_blue.jpg",
+        "price": 1300,
+        "color": "Blue"
+    },
+    {
+        "id": 18,
+        "title": "Diamond",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat.",
+        "imgpath": "/gems_images/diamond_red.jpg",
+        "price": 6500,
+        "color": "Red"
+    }
+]

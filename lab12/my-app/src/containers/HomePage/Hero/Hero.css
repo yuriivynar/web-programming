@@ -1,0 +1,27 @@
+.hero {
+    display: flex;
+    justify-content: start;
+    margin: 50px;
+    gap: 100px;
+}
+.hero_content {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hero h1 {
+    font-size: 24px;
+    padding: 10px 0;
+
+}
+.hero p {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.hero_image {
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 100px;
+}
